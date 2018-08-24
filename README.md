@@ -27,11 +27,11 @@
 
 ## 调用方法: ##
 
-      ## 设置状态栏为固定颜色 ##
+   ### 设置状态栏为固定颜色 ###
       Eyes.setStatusBarLightMode(Activity activity, int Color); 
       
       
-      ## 设置状态栏为透明 ##
+   ### 设置状态栏为透明 ###
       Eyes.translucentStatusBar(Activity activity, boolean hideStatusBarBackground);
       
       
