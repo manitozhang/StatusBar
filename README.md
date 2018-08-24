@@ -19,7 +19,7 @@
 
 添加
 
-      implementation 'com.github.manitozhang:StatusBar:1.0'
+      implementation 'com.github.manitozhang:StatusBar:2.0'
 
 到你的 moudle 下的 dependencies 标签下
 
@@ -27,11 +27,11 @@
 
 ## 调用方法: ##
 
-      ### 设置状态栏为固定颜色 ###
+      ## 设置状态栏为固定颜色 ##
       Eyes.setStatusBarLightMode(Activity activity, int Color); 
       
       
-      ### 设置状态栏为透明 ###
+      ## 设置状态栏为透明 ##
       Eyes.translucentStatusBar(Activity activity, boolean hideStatusBarBackground);
       
       
