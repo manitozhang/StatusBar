@@ -17,6 +17,14 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
+
+/**
+ *  @Author : 张
+ *  @Email : manitozhang@foxmail.com
+ *  Github : https://github.com/manitozhang
+ *  Csdn  : https://blog.csdn.net/qq1271396448
+ */
+
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 class EyesLollipop {
 

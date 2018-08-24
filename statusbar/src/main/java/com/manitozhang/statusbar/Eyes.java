@@ -1,6 +1,5 @@
 package com.manitozhang.statusbar;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
@@ -20,8 +19,14 @@ import android.view.WindowManager;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class Eyes {
+/**
+ *  @Author : 张
+ *  @Email : manitozhang@foxmail.com
+ *  Github : https://github.com/manitozhang
+ *  Csdn  : https://blog.csdn.net/qq1271396448
+ */
 
+public class Eyes {
 
     public static void setStatusBarColor(Activity activity, int statusColor) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -154,4 +159,5 @@ public class Eyes {
     static int getPxFromDp(Context context, float dp) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources().getDisplayMetrics());
     }
+
 }
