@@ -2,7 +2,7 @@
 
 # 先上个效果图 #
 
-![效果图](https://github.com/manitozhang/StatusBar/tree/master/statusbar/src/main/res/drawable.show.png)
+![效果图](https://github.com/manitozhang/StatusBar/blob/master/statusbar/src/main/res/drawable/show.png)
 
 
 这是一个可以改变状态栏颜色以及使状态栏变透明的依赖库
